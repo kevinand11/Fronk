@@ -1,5 +1,5 @@
 <template>
-	<section class="flex flex-col items-center justify-center">
+	<section id="socials" class="flex flex-col items-center justify-center">
 		<img src="/images/cards.svg" alt="card">
 
 		<footer class="flex flex-col justify-center items-center gap-6 text-light mt-28 md:mb-40 mb-10">
@@ -22,6 +22,4 @@
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
