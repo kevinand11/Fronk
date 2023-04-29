@@ -3,7 +3,9 @@
 		<NavBar />
 		<cta />
 		<div class="flex flex-col gradient w-full">
-			<Details />
+			<div class="px-2 flex flex-col">
+				<Details />
+			</div>
 			<DefaultFooter />
 		</div>
 	</section>
@@ -17,7 +19,7 @@ definePageMeta({
 </script>
 
 <style scoped>
-.gradient{
+.gradient {
 	background: linear-gradient(180deg, #1F0438 15.22%, #060400 100%);
 }
 </style>
