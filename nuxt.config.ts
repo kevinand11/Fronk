@@ -6,7 +6,7 @@ export default {
 	target: 'static',
 	app: {
 	head: {
-		title: 'Test',
+		title: 'Fronkai',
 		htmlAttrs: { lang: 'en' },
 		meta: [
 			{ charset: 'utf-8' },
