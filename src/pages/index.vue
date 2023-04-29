@@ -3,12 +3,14 @@
 		<NavBar />
 		<cta />
 		<div class="flex flex-col gradient w-full">
-			<details />
+			<Details />
+			<DefaultFooter />
 		</div>
 	</section>
 </template>
 
 <script setup lang="ts">
+
 definePageMeta({
 	layout: 'default'
 })
