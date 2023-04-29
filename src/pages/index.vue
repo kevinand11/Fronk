@@ -1,7 +1,9 @@
 <template>
-	<section class="flex flex-col w-full">
-		<NavBar />
-		<cta />
+	<section class="flex flex-col gap-40 w-full">
+		<div class="h-screen flex flex-col">
+			<NavBar />
+			<cta class="grow" />
+		</div>
 		<div class="flex flex-col gradient w-full">
 			<div class="px-2 flex flex-col">
 				<Details />
