@@ -3,9 +3,7 @@
 		<NavBar />
 		<cta />
 		<div class="flex flex-col gradient w-full">
-			<div class="text-7xl text-light">
-				hel
-			</div>
+			<details />
 		</div>
 	</section>
 </template>

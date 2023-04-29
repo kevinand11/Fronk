@@ -1,7 +1,7 @@
 <template>
 	<section class="w-[1297px] mx-auto px-4  max-w-full bg-[#1D092C]">
 		<div class="flex">
-			<span class="item">About Fronk</span>
+			<span class="item active">About Fronk</span>
 			<span class="item">NFTs</span>
 			<span class="item">Wallet</span>
 			<span class="item">Whitepaper</span>
@@ -16,5 +16,8 @@
 <style scoped>
 .item{
     @apply flex items-center justify-center
+}
+.active{
+    @apply bg-secondary font-bold
 }
 </style>
