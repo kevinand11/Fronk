@@ -13,7 +13,7 @@ export default {
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'format-detection', content: 'telephone=no' }
 		],
-		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]
+		link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/logo.svg' }]
 	}
 	},
 
