@@ -1,7 +1,7 @@
 <template>
-	<div>
-		This is the default layout
+	<div class="bg-primary h-screen w-screen relative">
 		<slot />
+
 	</div>
 </template>
 
