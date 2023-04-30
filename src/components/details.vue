@@ -10,41 +10,36 @@
 			>
 				{{ tab.name }}
 			</span>
+			<span class="item">
+				Whitepaper
+			</span>
 		</div>
 
-		<div class="w-full flex justify-center items-center md:h-full md:pt-40 py-12">
-			<p class="max-w-[982px] text-center md:text-[20px] md:leading-relaxed text-sm px-4">
-				{{ tabs[activeTab].text }}
-			</p>
+		<div class="w-full flex justify-center items-center md:h-full md:pt-20 py-12">
+			<component :is="tabs[activeTab].component" v-if="tabs[activeTab].component" class="max-w-[982px] text-center md:text-[20px] md:leading-relaxed text-sm px-4" />
 		</div>
 	</section>
 </template>
 
 <script setup lang="ts">
+import Tab1 from './features/Tab1.vue'
+import Tab2 from './features/Tab2.vue'
+import Tab3 from './features/Tab3.vue'
+
 const activeTab = ref(0)
 const tabs = [
 	{
 		name: 'About Fronk',
-		text: `Fronk Ai is the first AI-powered GameFi and meme creator. Our platform allows you to feed low-quality memes
-				to the ai and receive a higher quality meme in return.We are building a social network where people can
-				create and share memes with a copyright option to ensure proper attribution.In addition, we are developing
-				fast- paced multiplayer card games that operates on a win2earn and free2play model, aiming for real
-				sustainability in the web3 gaming space.Apart from the card playing feature we have taken it two steps
-				further with one being the use of memes which would be on cards and also people’s avatar which can be turned
-				into NFTs and sold in the marketplace.The second step being the integration of artificial intelligence to
-				help monitor and play games for users.`
+		component: Tab1
 	},
 	{
 		name: 'NFTs',
-		text: ''
+		text: '',
+		component: Tab2
 	},
 	{
 		name: 'Wallet',
-		text: ''
-	},
-	{
-		name: 'Whitepaper',
-		text: ''
+		component: Tab3
 	}
 ]
 </script>
