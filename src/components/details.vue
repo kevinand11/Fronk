@@ -1,5 +1,5 @@
 <template>
-	<section id="about" class="w-[1297px] mx-auto   max-w-full bg-[#1D092C] text-white rounded-2xl md:min-h-[828px]">
+	<section id="about" class="w-[1297px] mx-auto   max-w-full bg-[#1D092C] text-white rounded-2xl md:min-h-[600px]">
 		<div class="flex w-full">
 			<span
 				v-for="(tab, idx) in tabs"
@@ -10,12 +10,9 @@
 			>
 				{{ tab.name }}
 			</span>
-			<span class="item">
-				Whitepaper
-			</span>
 		</div>
 
-		<div class="w-full flex justify-center items-center md:h-full md:pt-20 py-12">
+		<div class="w-full flex justify-center items-center md:h-full md:py-20 py-12">
 			<component :is="tabs[activeTab].component" v-if="tabs[activeTab].component" class="max-w-[982px] text-center md:text-[20px] md:leading-relaxed text-sm px-4" />
 		</div>
 	</section>
@@ -33,12 +30,11 @@ const tabs = [
 		component: Tab1
 	},
 	{
-		name: 'NFTs',
-		text: '',
+		name: 'BNB Reflection',
 		component: Tab2
 	},
 	{
-		name: 'Wallet',
+		name: 'Token',
 		component: Tab3
 	}
 ]

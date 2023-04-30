@@ -1,10 +1,14 @@
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 
-  * {
-      font-family: 'Space Grotesk', sans-serif;
-  }
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
 
-  .highlight {
-    color: #FEC052;
-  }
+body {
+	background: linear-gradient(180deg, #1F0438 15.22%, #060400 100%);
+}
+
+.highlight {
+  color: #FEC052;
+}
