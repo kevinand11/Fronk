@@ -1,5 +1,5 @@
 <template>
-	<section id="about" class="w-[1297px] mx-auto   max-w-full bg-[#1D092C] text-white rounded-2xl md:min-h-[600px]">
+	<section id="about" class="w-[1297px] mx-auto   max-w-full bg-[#1D092C] text-white rounded-2xl md:min-h-[700px]">
 		<div class="flex w-full">
 			<span
 				v-for="(tab, idx) in tabs"
