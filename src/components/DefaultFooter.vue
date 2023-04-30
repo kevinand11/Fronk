@@ -9,7 +9,6 @@
 			<div class="flex gap-8">
 				<img src="/socials/twitter.svg" alt="twitter">
 				<img src="/socials/telegram.svg" alt="telegram">
-				<img src="/socials/discord.svg" alt="discord">
 			</div>
 			<p class="text-sm">
 				© All rights reserved to Fronk
