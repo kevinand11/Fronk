@@ -5,6 +5,6 @@
 			This token is also what would be awarded to players for winning in games and also the base currrency for exchange in the marketplace.<br><br>
 			<span class="highlight">$FNK</span> is a Bep-20 token created on the Binance Smart Chain (BSC)
 		</p>
-		<img src="@/assets/icons/wallet.svg" class="mx-auto w-2/3" alt="">
+		<img src="@/assets/images/wallet.svg" class="mx-auto w-2/3" alt="">
 	</div>
 </template>

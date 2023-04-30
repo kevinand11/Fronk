@@ -20,8 +20,6 @@
 	</nav>
 </template>
 
-<script setup lang="ts"></script>
-
 <style scoped>
 a {
 	color: var(--tertiary)
