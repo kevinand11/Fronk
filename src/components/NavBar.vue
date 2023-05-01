@@ -14,7 +14,7 @@
 			</nuxt-link>
 		</div>
 
-		<a href="#">
+		<a href="/whitepaper.pdf" target="_blank">
 			<img src="/images/btn.svg" alt="btn" class="w-24 md:w-auto">
 		</a>
 	</nav>
