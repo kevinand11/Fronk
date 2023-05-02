@@ -7,8 +7,12 @@
 				BE PART OF OUR COMMUNITY
 			</p>
 			<div class="flex gap-8">
-				<img src="/socials/twitter.svg" alt="twitter">
-				<img src="/socials/telegram.svg" alt="telegram">
+				<a href="https://twitter.com/fronk_ai?" target="_blank">
+					<img src="/socials/twitter.svg" alt="twitter">
+				</a>
+				<a href="https://t.me/fronk_ai" target="_blank">
+					<img src="/socials/telegram.svg" alt="telegram">
+				</a>
 			</div>
 			<p class="text-sm">
 				© All rights reserved to Fronk
