@@ -7,7 +7,7 @@
 			href="https://t.me/fronk_ai"
 			class="px-4 w-[210px] h-[59px] flex justify-center items-center rounded-2xl !bg-white md:mt-20 mt-10 font-medium text-lg"
 		>
-			Join Telegram - x
+			Join Telegram
 		</a>
 	</section>
 </template>
