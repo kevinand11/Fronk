@@ -8,7 +8,8 @@
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"lint": "eslint . --ext .ts,.vue"
+		"lint": "eslint . --ext .ts,.vue",
+		"deploy": "node bin/deploy.js"
 	},
 	"lint-staged": {
 		"*.{js,vue,ts}": [
