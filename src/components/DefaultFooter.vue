@@ -10,7 +10,7 @@
 				<a href="https://twitter.com/fronk_ai?" target="_blank">
 					<img src="/socials/twitter.svg" alt="twitter">
 				</a>
-				<a href="https://t.me/fronk_ai" target="_blank">
+				<a href="https://t.me/fronkaiportal" target="_blank">
 					<img src="/socials/telegram.svg" alt="telegram">
 				</a>
 			</div>
