@@ -30,7 +30,7 @@ const tabs = [
 		component: Tab1
 	},
 	{
-		name: 'BNB Reflection',
+		name: 'USDT Reflection',
 		component: Tab2
 	},
 	{
