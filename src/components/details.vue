@@ -22,20 +22,25 @@
 import Tab1 from './features/Tab1.vue'
 import Tab2 from './features/Tab2.vue'
 import Tab3 from './features/Tab3.vue'
+import Tab4 from './features/Tab4.vue'
 
 const activeTab = ref(0)
 const tabs = [
 	{
-		name: 'About Fronk',
+		name: 'About $FRONK',
 		component: Tab1
 	},
 	{
-		name: 'USDT Reflection',
+		name: 'Ask Fronkie',
 		component: Tab2
 	},
 	{
-		name: 'Token',
+		name: 'Fronky Rewards',
 		component: Tab3
+	},
+	{
+		name: 'Contract Address',
+		component: Tab4
 	}
 ]
 </script>
