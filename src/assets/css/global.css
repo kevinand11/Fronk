@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Gotham';
   font-weight: 400;
-  src: url('/Gotham-Rounded-Font/Gotham Rounded Medium.otf') format('opentype');
+  src: url('/Gotham-Rounded-Font/Gotham-Rounded-Medium.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Gotham';
   font-weight: 700;
-  src: url('/Gotham-Rounded-Font/Gotham Rounded Bold.otf') format('opentype');
+  src: url('/Gotham-Rounded-Font/Gotham-Rounded-Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Gotham';
   font-weight: 300;
-  src: url('/Gotham-Rounded-Font/Gotham Rounded Light.otf') format('opentype');
+  src: url('/Gotham-Rounded-Font/Gotham-Rounded-Light.otf') format('opentype');
 }
 
 * {
