@@ -1,10 +1,10 @@
 <template>
 	<div class="flex flex-col gap-4">
 		<p>
-			<span class="highlight">Fronk Token ($FRONK)</span> is the game’s governance token and its the token which will be integrated into the Fronk game in order to provide increasing levels of decision-making ability and control over the product to the player-base, asset owners, and other stakeholders.<br>
-			This token is also what would be awarded to players for winning in games and also the base currrency for exchange in the marketplace.<br><br>
-			<span class="highlight">$FRONK</span> is a Bep-20 token created on the Binance Smart Chain (BSC)
+			Get Airdropped wuth Fronky $USDT rewards for being less of a jeet and more of a real one!
+			A part of the Buy/Sell Tax is dedicateede to airdropping USDT rewards to <span class="highlight">$FRONK</span> holders...
+			ALL DAY, EVERYDAY!
 		</p>
-		<img src="@/assets/images/wallet.svg" class="mx-auto w-2/3" alt="">
+		<img src="@/assets/images/wallet.svg" class="hidden mx-auto w-2/3" alt="">
 	</div>
 </template>
