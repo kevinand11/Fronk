@@ -21,7 +21,7 @@ export default {
 		'@': './src'
 	},
 
-	css: ['/src/assets/css/main.css'],
+	css: ['/src/assets/css/main.css', 'primeicons/primeicons.css'],
 	components: [
 		'@/components',
 		{ path: '@/components/core', extensions: ['vue'] }
@@ -31,7 +31,8 @@ export default {
 	build: {
 		postcss: {
 			postcssOptions: require('./postcss.config.js')
-		}
+		},
+		transpile: ['primevue']
 	},
 	dir: {
 		layouts: './src/layouts',

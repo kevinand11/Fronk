@@ -8,7 +8,7 @@
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"lint": "eslint . --ext .ts,.vue",
+		"lint": "eslint --fix . --ext .ts,.vue",
 		"deploy": "node bin/deploy.js"
 	},
 	"lint-staged": {
@@ -43,6 +43,8 @@
 		"vite-plugin-eslint": "^1.7.0"
 	},
 	"dependencies": {
-		"postcss-custom-properties": "^12.1.11"
+		"postcss-custom-properties": "^12.1.11",
+		"primeicons": "^6.0.1",
+		"primevue": "^3.29.1"
 	}
 }

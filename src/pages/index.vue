@@ -1,6 +1,6 @@
 <template>
-	<section class="flex flex-col gap-40 w-full">
-		<div class="h-screen flex flex-col">
+	<section class="flex flex-col gap-2 w-full">
+		<div class="min-h-screen flex flex-col">
 			<NavBar />
 			<Cta class="grow" />
 		</div>

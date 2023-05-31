@@ -6,8 +6,15 @@
 		<a href="https://www.pinksale.finance" target="_blank">
 			<img src="@/assets/images/pinksale.png" alt="" class="w-full h-[80px] md:h-[120px]">
 		</a>
-		<h2 class="text-xl">
-			SOFT CAP: 125 BNB &nbsp;&nbsp;&nbsp; HARD CAP: 500 BNB
+		<h2 class="text-xl flex flex-col md:flex-row justify-center items-center gap-4">
+			<span>SOFT CAP: 125 BNB</span>
+			<span>HARD CAP: 500 BNB</span>
 		</h2>
+
+		<a href="https://www.pinksale.finance/launchpad/0xA6d10DE14840565C6fC7CEB95C51f4fabb49ab7B?chain=BSC" target="_blank" class="mt-10">
+			<button class="px-6 py-4 rounded-2xl !bg-white text-primary font-medium text-lg">
+				PINKSALE | $FRONK
+			</button>
+		</a>
 	</div>
 </template>
