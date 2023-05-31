@@ -14,14 +14,28 @@
 			</nuxt-link>
 		</div>
 
-		<a href="/whitepaper.pdf" target="_blank">
-			<img src="/images/btn.svg" alt="btn" class="w-24 md:w-auto">
-		</a>
+		<div class="flex gap-2 md:gap-4 items-center">
+			<a href="/whitepaper-summarized.pdf" target="_blank" class="bg-d p-4 flex items-center justify-center">
+				<span>Get Summary</span>
+			</a>
+
+			<a href="/whitepaper.pdf" target="_blank" class="bg-d p-4 flex items-center justify-center">
+				<span>Get Whitepaper</span>
+			</a>
+		</div>
 	</nav>
 </template>
 
 <style scoped>
 a {
 	color: var(--tertiary)
+}
+.bg-d {
+	background-image: url('/images/btn-connect.svg');
+	background-size: cover;
+	color: #3B0E63;
+	font-size: 0.7rem;
+	height: 88px;
+	width: 144px;
 }
 </style>

@@ -1,15 +1,13 @@
 <template>
-	<div class="p-16 flex flex-col items-center text-white gap-8 mb-20">
+	<div class="p-6 flex flex-col items-center text-white gap-6 mb-20">
 		<h1 class="text-3xl font-bold">
-			Partners
+			PRESALE ON 2ND JUNE
 		</h1>
-		<div class="flex flex-col md:flex-row gap-12 mx-auto items-center justify-center">
-			<a href="https://www.pinksale.finance" target="_blank">
-				<img src="@/assets/images/pinksale.png" alt="" class="w-full h-[50px] md:h-[100px]">
-			</a>
-			<a href="https://www.dexview.com" target="_blank">
-				<img src="@/assets/images/dexview.png" alt="" class="w-full h-[50px] md:h-[100px]">
-			</a>
-		</div>
+		<a href="https://www.pinksale.finance" target="_blank">
+			<img src="@/assets/images/pinksale.png" alt="" class="w-full h-[80px] md:h-[120px]">
+		</a>
+		<h2 class="text-xl">
+			SOFT CAP: 125 BNB &nbsp;&nbsp;&nbsp; HARD CAP: 500 BNB
+		</h2>
 	</div>
 </template>

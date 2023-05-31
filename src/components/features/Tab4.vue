@@ -1,7 +1,8 @@
 <template>
 	<div>
-		This is the official <span class="highlight">$FRONK</span> Contract Address:<br>
-		0x4E823d2445bBE8d3979b6125e72c64dc04869D3D<br>
+		This is the official <span class="highlight">$FRONK</span> Contract Address:<br><br>
+
+		<span class="highlight">0x4E823d2445bBE8d3979b6125e72c64dc04869D3D</span><br><br>
 
 		You’ll be able to get your “Fronk” on right after <span class="highlight">$FRONK</span> Presale and Launch!<br>
 
