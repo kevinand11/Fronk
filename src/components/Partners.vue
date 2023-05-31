@@ -1,5 +1,5 @@
 <template>
-	<div class="p-6 flex flex-col items-center text-white gap-6 mb-20">
+	<div class="p-6 flex flex-col items-center text-white gap-6 mb-20 text-center">
 		<h1 class="text-3xl font-bold">
 			PRESALE ON 2ND JUNE
 		</h1>
