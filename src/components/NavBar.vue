@@ -1,5 +1,5 @@
 <template>
-	<nav class="container mx-auto py-1 md:py-4 flex justify-between items-center px-4">
+	<nav class="container mx-auto p-4 flex justify-between items-center">
 		<img src="/images/logo.svg" alt="logo" class="w-10 md:w-auto">
 
 		<div class="lg:flex justify-between h-full items-center gap-16 hidden nav">
