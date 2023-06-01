@@ -15,7 +15,7 @@
 		</div>
 
 		<div class="hidden lg:flex gap-2 md:gap-4 items-center">
-			<a href="/whitepaper.pdf" target="_blank" class="bg-d p-4 flex items-center justify-center">
+			<a href="/whitepaper-summarized.pdf" target="_blank" class="bg-d p-4 flex items-center justify-center">
 				<span>Get Whitepaper</span>
 			</a>
 		</div>
